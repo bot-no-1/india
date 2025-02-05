@@ -1,0 +1,59 @@
+.heading{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+    z-index: 1; /* Ensure heading is on top of the video */
+    font-size: 60px;
+    display:flex;
+}
+.trol{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0); /* Adjust text color as needed */
+    z-index: 1; /* Ensure heading is on top of the video */
+    font-size: 50px;
+    border-style: dashed;
+    border-radius: 5px;
+    display:flex;
+}
+nav{
+    background-color: grey;
+    border-radius: 10px;
+}
+nav a{
+    display: inline-block;
+    justify-content: center;
+    padding:0 ;
+    box-sizing: border-box;
+    padding: 0 23px;
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1px;
+    width: fit-content;
+    background: linear-gradient(to right, #ff0707, #008bef);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: flex;
+    justify-content: center; /* Centers inline content horizontally */
+    align-items: center; /* Centers content vertically */
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent h1 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure it spans the entire h1 */
+}
+
