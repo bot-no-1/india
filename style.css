@@ -93,7 +93,7 @@ html {
     scroll-behavior: smooth;
 }
 /* Media query for smaller screens (Mobile) */
-@media screen and (max-width:1024px) {
+@media screen and (max-width:540px) {
     /* Adjust for mobile phones: */
     [class="in"] {
         width: 100%;
