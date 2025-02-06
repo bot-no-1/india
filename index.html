@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <title>India</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body >
+    <div >
+            <ul class="nav">
+                <LI><a href="https://github.com/bot-no-1">:)</a></LI>
+                <LI class="hideonmob"><a href="index.html">Home</a></LI>
+                <LI class="hideonmob"><a href="history.html">History</a></LI>
+                <LI class="hideonmob"><a href="places.html">Places</a></LI>
+                <LI class="hideonmob"><a href="about.html">About</a></LI>
+                <li class="menu-button" onclick=showsidenav()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+    </div>
+    <div>
+        <ul class="sidenav">
+            <LI onclick=hidesidenav()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></LI>
+            <LI><a href="index.html">Home</a></LI>
+            <LI><a href="history.html">History</a></LI>
+            <LI><a href="places.html">Places</a></LI>
+            <LI><a href="about.html">About</a></LI>
+        </ul>
+    </div>
+    <div class="pls">
+                <h1><a href="https://en.wikipedia.org/wiki/India">INDIA</a></h1>
+                <p>India is a country of vast diversity, rich history, and rapid development. With over 1.4 billion people, it is the world’s largest democracy and home to a wide range of languages, traditions, and religions. From the snow-capped Himalayas in the north to the tropical beaches in the south, India's geography is as varied as its culture. The country is known for its iconic landmarks, including the Taj Mahal, ancient temples, and historical forts that reflect its deep-rooted heritage. Festivals like Diwali, Holi, Eid, and Christmas are celebrated with great enthusiasm, showcasing the spirit of unity in diversity. India is also a major player in technology, space exploration, and innovation, with institutions like ISRO and top IT hubs making global contributions. At the same time, its villages and traditions preserve a timeless charm, offering a blend of the old and the new. Whether through its cuisine, music, art, or hospitality, India continues to leave a lasting impact on the world. </p>
+                <h2>Explore</h2>
+<script>
+    function showsidenav(){
+        const sidenav=document.querySelector(".sidenav");
+        sidenav.style.display='flex';
+    }
+    function hidesidenav(){
+        const sidenav=document.querySelector(".sidenav");
+        sidenav.style.display="none";
+    }
+</script>
+</body>
+</html>
