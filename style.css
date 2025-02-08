@@ -169,6 +169,7 @@ a{
     display: flex;
     height:-50%;
     border-style: groove;
+    flex-wrap: wrap;
    
 }
 .container h4{
@@ -247,24 +248,27 @@ a{
     }
     .menu-button {
         display: block;
+        margin: auto;
     }
     .nav ul {
         justify-content: center; 
     }
     .slides img{
-        width:380px;
+        width:260px;
         display: flex;
         flex-shrink: 1;
     }
     .slides h3{
-        font-size: 40px;
+        font-size: 25px;
         width: fit-content;
+        width: 60%;
     }
     .slides h4{
-        font-size:55px;
+        font-size:30px;
+        width: 50%;
     }
 }
-@media (max-width: 376px) {
+@media (max-width: 320px) {
     .hideonmob {
         display: none;
     }
