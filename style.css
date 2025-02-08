@@ -162,7 +162,6 @@ a{
 }
 .container h3{
     font-size: 2rem;
-    font-family: 'Monaco', sans-serif;
     text-align: justify;
     color:white;
     width: fit-content;
@@ -173,8 +172,7 @@ a{
    
 }
 .container h4{
-    font-size: 2.25rem;
-    font-family: 'Monaco', sans-serif;
+    font-size: 2.25rem; 
     text-align: justify;
     color:white;
     width: fit-content;
@@ -244,13 +242,12 @@ a{
     
 }
 
-@media  screen and (max-width: 425px) {
+@media  screen and (min-width: 425px) {
     .hideonmob {
         display: none;
     }
     .menu-button {
         display: block;
-        margin: auto;
     }
     .nav ul {
         justify-content: center; 
@@ -261,13 +258,12 @@ a{
         flex-shrink: 1;
     }
     .slides h3{
-        font-size: 25px;
-        width: fit-content;
-        width: 60%;
+        font-size: 20px;
+        
+      
     }
     .slides h4{
-        font-size:30px;
-        width: 50%;
+        font-size:20px;
     }
 }
 @media screen and (max-width: 320px) {
