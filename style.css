@@ -175,7 +175,7 @@ a{
     font-weight:bold;
 }
 .container h4{
-    font-size: 4vw; 
+    font-size: 3.4vw; 
     text-align: justify;
     color:white;
     width:fit-content;
@@ -201,7 +201,7 @@ a{
            
     }
     .slides img{
-        width: 85%;
+        width: fit-content;
         height: 30vw;
     }
     .pls p{
