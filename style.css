@@ -166,18 +166,18 @@ a{
     color:white;
     width: fit-content;
     display: flex;
-    border-style: groove;
     flex-wrap: wrap;
     font-family: 'Monaco', sans-serif;
     font-weight:bold;
 }
 .container h4{
-    font-size: 5vh !important; 
+    font-size: 6vh !important; 
     text-align: justify;
     color:white;
     width:fit-content;
     display: flex;
-    border-style: groove;
+    text-decoration-line: underline;
+    text-underline-position: under;
     font-family: 'Copperplate', sans-serif;
 }
 
