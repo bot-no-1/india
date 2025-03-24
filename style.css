@@ -89,6 +89,8 @@ html {
     padding: 5rem 4rem;
     align-items: center;
     justify-content: center;
+
+    
     
 }
 a{
@@ -157,8 +159,9 @@ a{
     position: relative;
     display: flex;
     height:50%;
-    width: 60vw;
-    gap:5%;
+    width: 65vw;
+    gap:50%;
+    
 }
 .container h3{
     font-size: 4vh;
@@ -201,10 +204,10 @@ a{
         height: 30vw;
     }
     .pls p{
-        font-size: 2vw;
+        font-size: 2vh;
     }
     .pls h2{
-        font-size: 3vw;
+        font-size: 3vh;
     }
     .pls h1{
         font-size: 6vh;
